@@ -12,11 +12,11 @@ import time
 import re
 
 # Store Twitter credentials from dev account
-consumer_key = "CITj1TQJHYFSOHC1kESROiaHj"
-consumer_secret = "yOBF6Lv6M3eSxifNlgM811JFyj9hNjjqIgnnlz4lfqSFfvC16I"
-access_key = "1262676138595319809-Xf8FYAUE5ePplWK7IwT7kjFcOmYj3v"
-access_secret = "nCFn6rHtolbt3QBVz8fm3DVlhr8X4RQq8w23vsZd1XwMa"
-bearer_token="AAAAAAAAAAAAAAAAAAAAACMRRwEAAAAAKqjqXVb2KzEv6atYfaKwSXCE0wg%3DrgvNBc52rZlK6Vw2iSNHArujQc3ScgFIwIma1uDPkFSVGvwnZk"
+consumer_key = "A"
+consumer_secret = "B"
+access_key = "C-D"
+access_secret = "E"
+bearer_token="F%G"
 
 # Pass twitter credentials to tweepy via its OAuthHandler
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
