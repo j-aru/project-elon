@@ -1,3 +1,3 @@
-web: python YOURSCRIPTNAME.py
+web: python prog.py
 
-worker: python YOURSCRIPTNAME.py 
+worker: python prog.py 
