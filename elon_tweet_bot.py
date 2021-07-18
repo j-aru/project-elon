@@ -62,7 +62,7 @@ def mail(message):
     s = SMTP('smtp.gmail.com', 587)
     s.starttls()
     try:
-        s.login("elonmusktweets06@gmail.com", "ARU1ARU2")
+        s.login("elonmusktweets06@gmail.com", "Password here")
     except:
         print("Login error")
         return
